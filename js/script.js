@@ -1,5 +1,5 @@
 function Display(Result){
-  document.getElementById("Result").innerHTML=Result 
+  document.getElementById("Result").innerHTML=Result +" thanks for verifying your age"
 }
 function Submit(){
   let Result = ""
