@@ -13,7 +13,7 @@ function Submit(){
   } else{
     Result="You can watch G movies"
   }
-  if (Age<0||Math.round(Age)!=Age){
+  if (Age<0||Math.round(Age)!=Age||Age==null||Age==""){
     Result="Please enter a valid age"
   }
   Display(Result)
